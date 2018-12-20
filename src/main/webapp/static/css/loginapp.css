@@ -1,0 +1,291 @@
+﻿@charset "UTF-8";
+.main_login .main {
+  position: relative;
+  height: 520px;
+}
+.main_login .main section {
+  height: 100%;
+}
+.main_login .main .banner_link {
+  position: absolute;
+  z-index: 1;
+  width: 880px;
+  height: 100%;
+  left: 160px;
+  top: 0;
+}
+.main_login .ui_pop {
+  z-index: 16;
+  background: rgba(0, 0, 0, 0.3);
+}
+.main_login .ui_pop .text {
+  text-align: left;
+}
+.main_login .ui_pop .text h3 {
+  margin-bottom: 0;
+  padding: 0 32px;
+}
+.main_login .ui_pop .text h4 {
+  padding-left: 32px;
+}
+.main_login .ui_pop .text h4 a {
+  position: relative;
+  padding-left: 30px;
+  display: block;
+  line-height: 2;
+  color: inherit;
+}
+.main_login .ui_pop .text h4 a:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons_1.png") center no-repeat;
+  left: 0;
+  background-position: -110px -60px;
+  top: 50%;
+  margin-top: -15px;
+}
+.main_login .ui_pop .text h4 a.active {
+  color: #fe4320;
+}
+.main_login .ui_pop .text h4 a.active:before {
+  background-position: -60px -60px;
+}
+.main_login .ui_pop .mobile_list {
+  padding-left: 32px;
+}
+.main_login .ui_pop .mobile_list a {
+  position: relative;
+  padding-left: 30px;
+  display: block;
+  line-height: 2;
+  color: inherit;
+}
+.main_login .ui_pop .mobile_list a:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons_1.png") center no-repeat;
+  left: 0;
+  background-position: -110px -60px;
+  top: 50%;
+  margin-top: -15px;
+}
+.main_login .ui_pop .mobile_list a.active {
+  color: #fe4320;
+}
+.main_login .ui_pop .mobile_list a.active:before {
+  background-position: -60px -60px;
+}
+#loginApp .login_wrap,
+#loginApp .register_wrap {
+  float: right;
+  margin-right: 160px;
+  position: relative;
+  z-index: 2;
+  top: 50px;
+  width: 250px;
+  padding: 20px 60px;
+  background: #ffffff;
+  opacity: 0.95;
+}
+#loginApp .login_wrap h2,
+#loginApp .register_wrap h2 {
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 14px;
+}
+#loginApp .login_wrap h2.tab_title:before,
+#loginApp .register_wrap h2.tab_title:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  background: #949494;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin-top: -9px;
+}
+#loginApp .login_wrap h2 a,
+#loginApp .register_wrap h2 a {
+  width: 50%;
+  line-height: 2;
+}
+#loginApp .login_wrap h2 a.active,
+#loginApp .register_wrap h2 a.active {
+  color: #fe4320;
+}
+#loginApp .login_wrap h2.bind_title a,
+#loginApp .register_wrap h2.bind_title a {
+  display: block;
+  width: 100%;
+}
+#loginApp .login_wrap .bottom_link,
+#loginApp .register_wrap .bottom_link {
+  margin-top: 12px;
+}
+#loginApp .login_wrap .bottom_link .link_1,
+#loginApp .register_wrap .bottom_link .link_1 {
+  color: #949494;
+}
+#loginApp .login_wrap .bottom_link .link_2,
+#loginApp .register_wrap .bottom_link .link_2 {
+  color: #fe4320;
+}
+#loginApp .login_wrap .more_login_type,
+#loginApp .register_wrap .more_login_type {
+  margin-top: 20px;
+}
+#loginApp .login_wrap .more_login_type h3,
+#loginApp .register_wrap .more_login_type h3 {
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+}
+#loginApp .login_wrap .more_login_type h3:before,
+#loginApp .register_wrap .more_login_type h3:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+  z-index: 1;
+  top: 50%;
+}
+#loginApp .login_wrap .more_login_type h3:after,
+#loginApp .register_wrap .more_login_type h3:after {
+  content: '其他登录方式';
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background: #ffffff;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+  color: #949494;
+  text-align: center;
+}
+#loginApp .login_wrap .more_login_type .type_list,
+#loginApp .register_wrap .more_login_type .type_list {
+  padding-top: 6px;
+  text-align: center;
+}
+#loginApp .login_wrap .more_login_type .type_list a,
+#loginApp .register_wrap .more_login_type .type_list a {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons_3.png") center no-repeat;
+  left: 0;
+  background-position: 0 0;
+  position: relative;
+  margin-right: 10px;
+  background: url("../images/icon_social.png") no-repeat;
+  -webkit-background-size: 40px 400px;
+  background-size: 40px 400px;
+}
+#loginApp .login_wrap .more_login_type .type_list a:last-of-type,
+#loginApp .register_wrap .more_login_type .type_list a:last-of-type {
+  margin-right: 0;
+}
+#loginApp .login_wrap .more_login_type .type_list a.wx,
+#loginApp .register_wrap .more_login_type .type_list a.wx {
+  background-position: 0 -40px;
+}
+#loginApp .login_wrap .more_login_type .type_list a.qq,
+#loginApp .register_wrap .more_login_type .type_list a.qq {
+  background-position: 0 0;
+}
+#loginApp .register_wrap {
+  padding-bottom: 48px;
+}
+#loginApp .register_wrap h2.tab_title:before {
+  left: 45%;
+}
+#loginApp .register_wrap .bottom_link {
+  width: 300px;
+  margin-top: 12px;
+  position: relative;
+}
+#loginApp .register_wrap .bottom_link [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  vertical-align: middle;
+}
+#loginApp .register_wrap .bottom_link label {
+  vertical-align: middle;
+}
+#loginApp .register_wrap .bottom_link a {
+  color: #fe4320;
+}
+#loginApp .register_wrap .bottom_link .error_message {
+  top: 20px;
+  text-indent: 18px;
+}
+#loginApp .bind_wrap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 15;
+  background: transparent;
+}
+#loginApp .bind_wrap .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #3e3e3e;
+  opacity: 0.3;
+  -moz-opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#loginApp .bind_wrap .inner {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 30px 60px 60px;
+}
+#loginApp .bind_wrap h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#loginApp .bind_wrap .close_btn {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: auto;
+  text-indent: -1000px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+#loginApp .bind_wrap .close_btn:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons.png") center no-repeat;
+  -webkit-background-size: 400px 400px;
+  -moz-background-size: 400px 400px;
+  background-size: 400px 400px;
+  top: 50%;
+  margin-top: -20px;
+  background-position: -280px -40px;
+  left: 50%;
+  margin-left: -20px;
+}

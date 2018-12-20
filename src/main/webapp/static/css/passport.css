@@ -1,0 +1,581 @@
+﻿@charset "UTF-8";
+.main_passport .input_wrap {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.main_passport .input_wrap:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url("../images/icons_2.png") center no-repeat;
+  left: 0;
+  background-position: 0 0;
+  top: 3px;
+}
+.main_passport .input_wrap.username_wrap:before {
+  background-position: -48px -8px;
+}
+.main_passport .input_wrap.password_wrap:before {
+  background-position: -8px -8px;
+}
+.main_passport .input_wrap.yzm_wrap:before {
+  background-position: -88px -8px;
+}
+.main_passport .input_wrap input {
+  line-height: 20px;
+  padding: 4px 0 5px 24px;
+  width: 226px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.main_passport .input_wrap.yzm_wrap input {
+  width: 128px;
+}
+.main_passport .input_wrap.yzm_wrap img {
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  background: #ebebeb;
+  right: 42px;
+  top: 0;
+}
+.main_passport .input_wrap.yzm_wrap .refresh_btn {
+  float: right;
+  font-size: 12px;
+  margin-top: 6px;
+}
+.main_passport .input_wrap.confirm_wrap {
+  text-align: right;
+}
+.main_passport .input_wrap.confirm_wrap:before {
+  content: normal;
+}
+.main_passport .input_wrap.confirm_wrap input {
+  padding-left: 0;
+}
+.main_passport .input_wrap .code_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #fe4320;
+  font-size: 12px;
+  color: #ffffff;
+}
+.main_passport .btn {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #fe4320;
+  color: #ffffff;
+  font-size: 16px;
+}
+.main_passport .error_message {
+  text-align: left;
+  text-indent: 24px;
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  left: 0;
+  top: 30px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #ff0000;
+  overflow: hidden;
+}
+.main_passport button:disabled {
+  opacity: 0.5;
+}
+.main_passport .ali_verify_wrap {
+  position: relative;
+  height: 34px;
+  width: 250px;
+  margin: 0 auto 30px;
+}
+.main_passport .ali_verify_wrap .error_message {
+  top: 32px;
+}
+.main_passport .ali_verify_wrap input {
+  border: 1px solid #949494;
+}
+.main_login .main {
+  position: relative;
+  height: 520px;
+}
+.main_login .main section {
+  height: 100%;
+}
+.main_login .main .banner_link {
+  position: absolute;
+  z-index: 1;
+  width: 880px;
+  height: 100%;
+  left: 160px;
+  top: 0;
+}
+.main_login .main .form_wrap {
+  float: right;
+  margin-right: 160px;
+  position: relative;
+  z-index: 2;
+  top: 50px;
+  width: 250px;
+  padding: 20px 60px;
+  background: #ffffff;
+  opacity: 0.9;
+}
+.main_login .main h2 {
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 16px;
+}
+.main_login .main h2.tab_title:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  background: #949494;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin-top: -9px;
+}
+.main_login .main h2 a {
+  width: 50%;
+  line-height: 2;
+}
+.main_login .main h2 a.active {
+  color: #fe4320;
+}
+.main_login .main h2.bind_title a {
+  display: block;
+  width: 100%;
+}
+.main_login .main .bottom_link {
+  margin-top: 12px;
+}
+.main_login .main .bottom_link .link_1 {
+  color: #949494;
+}
+.main_login .main .bottom_link .link_2 {
+  color: #fe4320;
+}
+.main_login .main .more_login_type {
+  margin-top: 20px;
+}
+.main_login .main .more_login_type h3 {
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+}
+.main_login .main .more_login_type h3:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+  z-index: 1;
+  top: 50%;
+}
+.main_login .main .more_login_type h3:after {
+  content: '其他登录方式';
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background: #ffffff;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+  color: #949494;
+  text-align: center;
+}
+.main_login .main .more_login_type .type_list {
+  padding-top: 6px;
+  text-align: center;
+}
+.main_login .main .more_login_type .type_list a {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons_3.png") center no-repeat;
+  left: 0;
+  background-position: 0 0;
+  position: relative;
+  margin-right: 10px;
+}
+.main_login .main .more_login_type .type_list a:last-of-type {
+  margin-right: 0;
+}
+.main_login .main .more_login_type .type_list a.wx {
+  background-position: -160px 0;
+}
+.main_login .main .more_login_type .type_list a.qq {
+  background-position: -200px 0;
+}
+.main_login .ui_pop {
+  z-index: 16;
+}
+.main_login .ui_pop .text {
+  text-align: left;
+}
+.main_login .ui_pop .text h3 {
+  margin-bottom: 0;
+  padding: 0 32px;
+}
+.main_login .ui_pop .text h4 {
+  padding-left: 32px;
+}
+.main_login .ui_pop .text h4 a {
+  position: relative;
+  padding-left: 30px;
+  display: block;
+  line-height: 2;
+  color: inherit;
+}
+.main_login .ui_pop .text h4 a:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url("../images/icons_1.png") center no-repeat;
+  left: 0;
+  background-position: -110px -60px;
+  top: 50%;
+  margin-top: -15px;
+}
+.main_login .ui_pop .text h4 a.active {
+  color: #fe4320;
+}
+.main_login .ui_pop .text h4 a.active:before {
+  background-position: -60px -60px;
+}
+.main_register .main {
+  position: relative;
+  padding: 60px 0 120px;
+}
+.main_register .main .form_wrap {
+  width: 250px;
+  position: relative;
+  margin: auto;
+}
+.main_register .main .bottom_link {
+  width: 300px;
+  margin-top: 12px;
+  position: relative;
+}
+.main_register .main .bottom_link [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  vertical-align: middle;
+}
+.main_register .main .bottom_link label {
+  vertical-align: middle;
+}
+.main_register .main .bottom_link a {
+  color: #fe4320;
+}
+.main_register .main .bottom_link .error_message {
+  top: 20px;
+  text-indent: 18px;
+}
+.main_find_pw .main {
+  position: relative;
+  min-height: 350px;
+  padding: 60px 0 40px;
+}
+.main_find_pw .main h3 {
+  font-size: 14px;
+}
+.main_find_pw .main .progress {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.main_find_pw .main .progress .progress_bar {
+  width: 700px;
+  height: 6px;
+  display: inline-block;
+  background: #ebebeb;
+}
+.main_find_pw .main .progress dl {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: url("../images/icons_2.png") center no-repeat;
+  left: 0;
+  background-position: -126px -6px;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: -11px 140px 0 0;
+}
+.main_find_pw .main .progress dl.first {
+  left: -2px;
+}
+.main_find_pw .main .progress dl.last {
+  margin-right: 0;
+  right: -2px;
+}
+.main_find_pw .main .progress dl dt {
+  position: relative;
+  line-height: 28px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.main_find_pw .main .progress dl dd {
+  position: absolute;
+  width: 100px;
+  top: 30px;
+  left: 50%;
+  margin-left: -50px;
+}
+.main_find_pw .main .progress dl.active dt {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: url("../images/icons_2.png") center no-repeat;
+  left: 0;
+  background-position: -166px -6px;
+}
+.main_find_pw .main .form_wrap {
+  position: relative;
+  margin: auto;
+}
+.main_find_pw .main .form_wrap .input_wrap {
+  width: 250px;
+  margin: 0 auto 30px;
+}
+.main_find_pw .main .form_wrap .btn_wrap {
+  width: 250px;
+  margin: auto;
+  position: relative;
+}
+.main_find_pw .main .form_wrap .btn_wrap .btn {
+  margin-top: 60px;
+}
+.main_find_pw .main .form_wrap .btn_wrap .prev_btn {
+  position: absolute;
+  height: 20px;
+  line-height: 20px;
+  right: -80px;
+  width: 70px;
+  bottom: 15px;
+}
+.main_find_pw .main .choose_types {
+  margin-top: 20px;
+}
+.main_find_pw .main .choose_types a {
+  border: 1px dashed #949494;
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.main_find_pw .main .choose_types a.active {
+  border-color: #fe4320;
+}
+.main_find_pw .main .desc_text {
+  color: #949494;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.main_find_pw .main #step2 {
+  text-align: center;
+}
+.main_find_pw .main #step2 h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main_find_pw .main #step2 .use_type {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 80px;
+  padding-top: 80px;
+  text-align: center;
+  margin-right: 12px;
+}
+.main_find_pw .main #step2 .use_type:before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: url("../images/icons_2.png") center no-repeat;
+  left: 0;
+  background-position: 0 0;
+  top: 0;
+  left: 50%;
+  margin-left: -40px;
+}
+.main_find_pw .main #step2 .use_type.type_mobile:before {
+  background-position: 0 -80px;
+}
+.main_find_pw .main #step2 .use_type.type_email:before {
+  background-position: 0 -160px;
+}
+.main_find_pw .main #step2 .use_type.active {
+  color: #fe4320;
+}
+.main_find_pw .main #step2 .use_type.active.type_mobile:before {
+  background-position: -80px -80px;
+}
+.main_find_pw .main #step2 .use_type.active.type_email:before {
+  background-position: -80px -160px;
+}
+.main_find_pw .main #step3 h3 {
+  font-size: 14px;
+  margin: 0 auto 24px;
+  width: 480px;
+}
+.main_find_pw .main #step3 h3 span {
+  color: #fe4320;
+}
+.main_find_pw .main #step3 .yzm_wrap input {
+  width: 224px;
+}
+.main_find_pw .main #step3 .no_answer {
+  width: 480px;
+  margin: 20px auto 0;
+}
+.main_find_pw .main #step3 .no_answer h4 {
+  font-size: 14px;
+  line-height: 32px;
+}
+.main_find_pw .main #step3 .no_answer h5 {
+  color: #949494;
+  line-height: 2;
+}
+.main_find_pw .main #step3 .no_answer a {
+  color: #fe4320;
+  text-decoration: underline;
+}
+.main_find_pw .main #step3 .btn {
+  margin-top: 30px;
+}
+.main_login_bind {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 15;
+  background: transparent;
+}
+.main_login_bind .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #3e3e3e;
+  opacity: 0.3;
+  -moz-opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.main_login_bind .main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.main_login_bind .main .form_wrap {
+  position: absolute;
+  z-index: 2;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  margin-top: -240px;
+  margin-left: -200px;
+  background: #ffffff;
+}
+.main_login_bind .main h2 {
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 16px;
+  height: 44px;
+  line-height: 44px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.main_login_bind .main .close_btn {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background: url("../images/icons_1.png") center no-repeat;
+  left: 0;
+  background-position: -252px -102px;
+  left: auto;
+  text-indent: -1000px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+.main_login_bind .main .input_wrap {
+  margin: 12px auto;
+  position: relative;
+  font-size: 14px;
+  width: 300px;
+}
+.main_login_bind .main .input_wrap input {
+  width: 298px;
+  line-height: 20px;
+  padding: 8px 0;
+  text-indent: 6px;
+  border: 1px solid #ebebeb;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.main_login_bind .main .input_wrap.yzm_wrap input {
+  width: 180px;
+}
+.main_login_bind .main .input_wrap.yzm_wrap img {
+  position: absolute;
+  height: 36px;
+  background: #ebebeb;
+  right: 0;
+  top: 1px;
+}
+.main_login_bind .main .input_wrap .code_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: #fe4320;
+  font-size: 12px;
+  color: #ffffff;
+}
+.main_login_bind .main .btn {
+  display: block;
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+  background: #fe4320;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 24px auto 36px;
+}
+.main_login_bind .main .error_message {
+  display: block;
+  width: 300px;
+  margin: auto;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #ff0000;
+  overflow: hidden;
+  position: relative;
+  top: -12px;
+}
+.main_login_bind .main button:disabled {
+  opacity: 0.5;
+}
