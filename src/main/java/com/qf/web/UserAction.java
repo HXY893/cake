@@ -36,7 +36,7 @@ public class UserAction {
         return map;
     }
 
-
+    @ResponseBody
     @RequestMapping("/addUser")
     public void  addUser(User user) {
         userDao.addUser(user);
@@ -48,13 +48,13 @@ public class UserAction {
         int id1 = id.intValue();
         return userDao.getUserById(id1);
     }
-
+    @ResponseBody
     @RequestMapping("/updateUser")
     public void updateUser(User user){
         userDao.updateUser(user);
     }
 
-
+    @ResponseBody
     @RequestMapping("/removeUser/{id}")
     public void removeUser(@PathVariable("id") Integer id){
         int id1 = id.intValue();
